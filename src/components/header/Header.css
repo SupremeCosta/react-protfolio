@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("https://i.pinimg.com/originals/28/4a/a8/284aa87260ad17790d2ccf14305063e1.jpg");
+    padding: 2px 20px
+}
+
+nav li {
+    display: inline;
+    padding-left: 50px;
+}
+
+header h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+
+nav a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header:hover{
+    background-color: white;
+}
+
+nav a:hover {
+    background: url("https://i.pinimg.com/originals/28/4a/a8/284aa87260ad17790d2ccf14305063e1.jpg");
+    color: rgb(0, 255, 251);
+}
+
+  @media screen and (max-width: 780px) {
+    header h2 {
+        font-size: 1.5rem;
+    }
+    nav a {
+        font-size: 0.875rem;
+    }
+  }
+
+
+@media screen and (max-width: 580px) {
+    header {
+        flex-direction: column;
+        background-color: bisque;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul{
+        text-align: center;
+        padding: 0;
+    }
+    header h2 {
+        font-size: 2rem;
+    }
+    nav a {
+        font-size: 1rem;
+    }
+    nav li {
+        display: inline;
+        padding-left: 8px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    header h2 {
+        font-size: 1rem;
+    }
+    nav a {
+        font-size: .75rem;
+    }
+  }

@@ -1,0 +1,62 @@
+/* Contact.css */
+
+/* Center the form and adjust spacing */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 15px; /* Increase padding for larger fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px; /* Increase font size for larger fields */
+    color: #333;
+    height: 40px; /* Increase height for larger fields */
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  /* Style error messages */
+  .error {
+    color: red;
+    font-size: 16px; /* Adjust error message font size */
+    margin-top: 5px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px; /* Increase padding for larger button */
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
